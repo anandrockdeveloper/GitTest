@@ -7,8 +7,8 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<scm>
-		<developerConnection>scm:git:https://github.com/anandrockdeveloper/GitTest/tree/rel-1.0.x</developerConnection>
-	</scm>
+        <developerConnection>scm:git:https://github.com/anandrockdeveloper/GitTest/tree/rel-1.0.x</developerConnection>
+    </scm>
 	<build>
 		<plugins>
 			<plugin>
@@ -18,14 +18,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<url>${MAVEN_SNAPSHOT_REPOSITORY_URL}</url>
-		</snapshotRepository>
-		<repository>
-			<id>nexus-releases</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
 </project>
